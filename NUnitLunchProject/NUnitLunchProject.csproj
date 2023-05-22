@@ -1,0 +1,79 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.3.2" />
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+    <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    <PackageReference Include="RestSharp" Version="108.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="ClientProxy\" />
+    <None Remove="RestSharp" />
+    <None Remove="Models\" />
+    <None Remove="Tests\" />
+    <None Remove="Models\ResponseDto\" />
+    <None Remove="Models\ResponseDto\CalendarResponseDto\" />
+    <None Remove="Tests\AdminTests\" />
+    <None Remove="Tests\AdminTests\CheckinTests\" />
+    <None Remove="Tests\UserTests\" />
+    <None Remove="Tests\UserTests\CheckinTests\" />
+    <None Remove="Tests\MealProviderTest\CheckinTests\" />
+    <None Remove="Helper\" />
+    <None Remove="Models\CheckinDtoModels\" />
+    <None Remove="Models\MealsDtoModels\" />
+    <None Remove="Models\ResponseDto\MealsResponseDto\" />
+    <None Remove="Models\ResponseDto\AllergensResponseDto\" />
+    <None Remove="Tests\AdminTests\MealsTests\" />
+    <None Remove="Tests\MealProviderTests\MealsTests\" />
+    <None Remove="Tests\UserTests\MealsTests\" />
+    <None Remove="Models\ResponseDto\CheckinsResponseDto\" />
+    <None Remove="Models\MenuDtoModels\" />
+    <None Remove="Models\ResponseDto\MenuResponseDto\" />
+    <None Remove="Tests\AdminTests\MenuTests\" />
+    <None Remove="Tests\MealProviderTests\MenuTests\" />
+    <None Remove="Tests\UserTests\MenuTests\" />
+    <None Remove="Tests\AdminTests\CalendarTests\" />
+    <None Remove="Models\CalendarDtoModels\" />
+    <None Remove="Models\ResponseDto\CalendarMoreDatesResponseDto\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClientProxy\" />
+    <Folder Include="Models\" />
+    <Folder Include="Tests\" />
+    <Folder Include="Models\ResponseDto\" />
+    <Folder Include="Models\ResponseDto\CalendarResponseDto\" />
+    <Folder Include="Tests\AdminTests\" />
+    <Folder Include="Tests\AdminTests\CheckinTests\" />
+    <Folder Include="Tests\UserTests\" />
+    <Folder Include="Tests\UserTests\CheckinTests\" />
+    <Folder Include="Tests\MealProviderTests\CheckinTests\" />
+    <Folder Include="Helper\" />
+    <Folder Include="Models\CheckinDtoModels\" />
+    <Folder Include="Models\MealsDtoModels\" />
+    <Folder Include="Models\ResponseDto\MealsResponseDto\" />
+    <Folder Include="Models\ResponseDto\AllergensResponseDto\" />
+    <Folder Include="Tests\AdminTests\MealsTests\" />
+    <Folder Include="Tests\MealProviderTests\MealsTests\" />
+    <Folder Include="Tests\UserTests\MealsTests\" />
+    <Folder Include="Models\ResponseDto\CheckinsResponseDto\" />
+    <Folder Include="Models\MenuDtoModels\" />
+    <Folder Include="Models\ResponseDto\MenuResponseDto\" />
+    <Folder Include="Tests\AdminTests\MenuTests\" />
+    <Folder Include="Tests\MealProviderTests\MenuTests\" />
+    <Folder Include="Tests\UserTests\MenuTests\" />
+    <Folder Include="Tests\AdminTests\CalendarTests\" />
+    <Folder Include="Models\CalendarDtoModels\" />
+    <Folder Include="Models\ResponseDto\CalendarMoreDatesResponseDto\" />
+  </ItemGroup>
+</Project>
